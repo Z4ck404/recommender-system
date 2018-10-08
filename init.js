@@ -1,5 +1,6 @@
 var getData = function () { 
-	return $.getJSON("./data/data_users.json"); 
+	//load the data user json file .
+	return $.getJSON("data_users.json"); 
 }; 
 var add_new_data = function(centre_interet1,centre_interet2,centre_interet3,age){
 	//var json = '{"rooms": rooms,"area":area,"type":false}';
